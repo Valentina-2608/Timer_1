@@ -24,3 +24,15 @@ body {
     color:#FFA473;
     font-size:65px;
 }
+
+
+.block_timer{
+    width:400px;
+    height:400px;
+    position: absolute;
+    top:150px;
+    left:300px;
+    text-align: center; 
+    border:5px solid #A63A00;
+    border-radius: 200px;
+}
