@@ -1,2 +1,26 @@
 /* Styles */
- 
+
+body {
+    height: 300vh;
+    background: radial-gradient(#10416b, black); 
+  }
+
+
+.main{
+    width:1000px;
+    height:1000px;
+    margin:0 auto;
+    position:relative;
+}
+
+
+.caption{
+    width:500px;
+    height:100px;
+    position: absolute;
+    top:50px;
+    left:250px;
+    text-align: center; 
+    color:#FFA473;
+    font-size:65px;
+}
