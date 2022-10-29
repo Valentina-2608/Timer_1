@@ -30,9 +30,40 @@ body {
     width:400px;
     height:400px;
     position: absolute;
-    top:150px;
+    top:180px;
     left:300px;
     text-align: center; 
-    border:5px solid #A63A00;
+    border:5px solid #6FA37F;
     border-radius: 200px;
+}
+
+.elements{
+    width:300px;
+    height:100px;
+    position: absolute;
+    top:110px;
+    left:50px;
+}
+
+#minutes, #seconds{
+    float:left;
+    height:50px;
+    margin-left:20px;
+    font-size:90px;
+    width:100px;
+    height:80px;
+    background: none;
+    color:#FFDFC4;
+    border:none;
+    text-align:center;
+    font-weight: bold;
+}
+
+.symbol{
+    float:left;
+    margin-left:20px;
+    color:#FFDFC4;
+    font-size:40px;
+    padding-top:10px;
+    font-weight: bold;
 }
