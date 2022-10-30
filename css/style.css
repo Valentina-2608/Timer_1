@@ -105,3 +105,23 @@ body {
 #start:hover{
     cursor:pointer;
 }
+
+
+
+#stop{
+    position:absolute;
+    top:5px;
+    left:155px;
+    border:none;
+    background: none;
+    font-size:25px;
+    font-weight: bold;
+    color:darkred;
+    display: none;
+}
+
+
+#stop:hover{
+    cursor:pointer;
+    
+}
