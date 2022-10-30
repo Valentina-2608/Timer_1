@@ -67,3 +67,28 @@ body {
     padding-top:10px;
     font-weight: bold;
 }
+
+.buttons{
+    width:400px;
+    height:50px;
+    position: absolute;
+    top:220px;
+    left:10px;
+}
+
+.line1, .line2{
+    float:left;
+}
+
+
+#start{
+    float:left;
+    border:none;
+    background: none;
+    margin-left:20px;
+    margin-right:20px;
+    font-size:25px;
+    margin-top:5px;
+    font-weight: bold;
+    color:white;
+}
