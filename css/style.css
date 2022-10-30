@@ -76,19 +76,32 @@ body {
     left:10px;
 }
 
-.line1, .line2{
-    float:left;
+.line1{
+    position: absolute;
+    top:3px;
+    left:0px;
+}
+
+.line2{
+    position: absolute;
+    top:3px;
+    left:240px;
 }
 
 
+
 #start{
-    float:left;
+    position:absolute;
+    top:5px;
+    left:155px;
     border:none;
     background: none;
-    margin-left:20px;
-    margin-right:20px;
     font-size:25px;
-    margin-top:5px;
     font-weight: bold;
     color:white;
+}
+
+
+#start:hover{
+    cursor:pointer;
 }
