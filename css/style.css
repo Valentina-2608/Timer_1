@@ -141,6 +141,7 @@ body {
     position: absolute;
     top:0px;
     left:170px;
+    display:none;
 }
 
 #img1:hover{
@@ -154,7 +155,7 @@ body {
     position: absolute;
     top:0px;
     left:170px;
-    display:none;
+   
 }
 
 #img2:hover{
