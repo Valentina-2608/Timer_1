@@ -7,6 +7,44 @@
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
+<div class="main">
+	<div class="caption">
+		Timer
+	</div>
+	<div class="block_timer">
+		<div class="elements">
+			<input type="text" id="minutes" value="0" disabled>
+			<div class="symbol">:</div>
+			<input type="text" id="seconds" value="15" disabled>
+		</div>
+		<div class="buttons">
+			<div class="line1">
+				<svg height="80" width="135">
+					<g fill="none" stroke="white" stroke-width="1">
+					  <path stroke-dasharray="1" d="M5 20 l215 0" />
+					</g>
+				  </svg>
+			</div>
+				<button id="start">Start</button>
+				<button id="stop">Stop</button>
+				<div class="line2">
+					<svg height="80" width="135">
+						<g fill="none" stroke="white" stroke-width="1">
+						  <path stroke-dasharray="1" d="M5 20 l215 0" />
+						</g>
+					  </svg>
+				</div>
+			</div>
+			<div class="images">
+				<div id="img1">
+					<img src="img/1.png" width="50px">
+				</div>
+				<div id="img2">
+					<img src="img/2.png" width="50px">
+				</div>
+			</div>
+		</div>
+</div>
+<script src="script.js"></script>
 </body>
 </html>

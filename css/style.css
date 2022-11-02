@@ -1,2 +1,163 @@
 /* Styles */
- 
+
+body {
+    height: 300vh;
+    background: radial-gradient(#10416b, black); 
+  }
+
+
+.main{
+    width:1000px;
+    height:1000px;
+    margin:0 auto;
+    position:relative;
+}
+
+
+.caption{
+    width:500px;
+    height:100px;
+    position: absolute;
+    top:50px;
+    left:250px;
+    text-align: center; 
+    color:#FFA473;
+    font-size:65px;
+}
+
+
+.block_timer{
+    width:400px;
+    height:400px;
+    position: absolute;
+    top:180px;
+    left:300px;
+    text-align: center; 
+    border:5px solid #6FA37F;
+    border-radius: 200px;
+}
+
+.elements{
+    width:300px;
+    height:100px;
+    position: absolute;
+    top:110px;
+    left:50px;
+}
+
+#minutes, #seconds{
+    float:left;
+    height:50px;
+    margin-left:20px;
+    font-size:90px;
+    width:100px;
+    height:80px;
+    background: none;
+    color:#FFDFC4;
+    border:none;
+    text-align:center;
+    font-weight: bold;
+}
+
+.symbol{
+    float:left;
+    margin-left:20px;
+    color:#FFDFC4;
+    font-size:40px;
+    padding-top:10px;
+    font-weight: bold;
+}
+
+.buttons{
+    width:400px;
+    height:50px;
+    position: absolute;
+    top:220px;
+    left:10px;
+}
+
+.line1{
+    position: absolute;
+    top:3px;
+    left:0px;
+}
+
+.line2{
+    position: absolute;
+    top:3px;
+    left:240px;
+}
+
+
+
+#start{
+    position:absolute;
+    top:5px;
+    left:155px;
+    border:none;
+    background: none;
+    font-size:25px;
+    font-weight: bold;
+    color:white;
+}
+
+
+#start:hover{
+    cursor:pointer;
+}
+
+
+
+#stop{
+    position:absolute;
+    top:5px;
+    left:155px;
+    border:none;
+    background: none;
+    font-size:25px;
+    font-weight: bold;
+    color:darkred;
+    display: none;
+}
+
+
+#stop:hover{
+    cursor:pointer;
+    
+}
+
+
+.images{
+    width:400px;
+    height:50px;
+    position: absolute;
+    top:280px;
+    left:10px;
+}
+
+#img1{
+    height:50px;
+    width:50px;
+    position: absolute;
+    top:0px;
+    left:170px;
+    display:none;
+}
+
+#img1:hover{
+    cursor: pointer;
+}
+
+
+#img2{
+    height:50px;
+    width:50px;
+    position: absolute;
+    top:0px;
+    left:170px;
+   
+}
+
+#img2:hover{
+    cursor: pointer;
+}
